@@ -1,4 +1,4 @@
-interface IDamage
+public interface IDamage
 {
-    void DoDamage(int vld);
+    bool DoDamage(int vld, bool isPlayer);
 }
